@@ -9,5 +9,5 @@ Ejemplo de uso:
       email:'
     };
 
-    const [ formValues , handleInputChange , reset ] = useFetch(url);
+    const [ formValues , handleInputChange , reset ] = useForm(initialForm);
 ```
